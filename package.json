@@ -1,0 +1,26 @@
+{
+  "name": "node-starter",
+  "version": "0.1.0",
+  "description": "A node starter project with common packages pre-installed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch --colors tests/*",
+    "dev": "nodemon src"
+  },
+  "keywords": [],
+  "author": "Kerim Güney <kerim@gueney.io> (https://gueney.io)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "jest": "^25.3.0",
+    "nodemon": "^2.0.3",
+    "prettier": "^2.0.4"
+  },
+  "dependencies": {
+    "cldr-data": "^36.0.0",
+    "csv-stringify": "^5.4.3",
+    "glob": "^7.1.6",
+    "globalize": "^1.5.0",
+    "pdf-parse": "^1.1.1"
+  }
+}
